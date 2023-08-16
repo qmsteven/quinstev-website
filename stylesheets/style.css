@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+}
+
+section {
+	margin-left: 10px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+  
+img {
+	max-width: 100%
+}
+  
+.image {
+	flex-basis: 40%
+}
+  
+.text {
+	padding-right: 20px;
+}
+
+footer {
+	background-color: #101010;
+	color: #9d9d9d;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	border-radius: 2px;
+}
+
+
+#nav {
+    width: min-content;
+    white-space: nowrap;
+    float: left;
+}
+
+ul {
+    padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+	#navpic {
+	    position: fixed;
+		right: 15px;
+		top: 0;
+	}
+}
